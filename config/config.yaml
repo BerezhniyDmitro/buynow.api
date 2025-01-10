@@ -1,0 +1,12 @@
+app:
+  name: "buynow.api"          # Application Name
+  environment: "dev"          # Environment (e.g., development, staging, production)
+
+logging:
+  level: "debug"              # Logging level (e.g., debug, info, warn, error)
+  format: "json"             # Log output format (e.g., json, plain)
+  file: "log/api.log"        # Log file path
+
+db:
+  uri: "mongodb://localhost:27017"
+  database_name: "buy_now_api"
